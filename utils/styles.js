@@ -1,12 +1,18 @@
-import  {makeStyles}  from "@mui/styles";
+import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
-    navbar: {
-        backgroundColor: '#203040',
-        '& a': {
-            color: '#FFFFFF',
-            marginLeft: 10,
-        },
+  navbar: {
+    backgroundColor: '#203040',
+    '& a': {
+      color: '#FFFFFF',
+      marginLeft: 10,
     },
+  },
+  main: {
+    minHeight: '80vh',
+  },
+  footer: {
+    textAlign: 'center',
+  },
 });
 export default useStyles;

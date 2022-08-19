@@ -11,15 +11,15 @@ export default function Layout({ children }) {
       <Head>
         <title>next amazona</title>
       </Head>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.navbar}>
         <Toolbar>
           <Typography>Amazona</Typography>
         </Toolbar>
       </AppBar>
-      <Container>
+      <Container className={classes.main}>
         {children}
       </Container>
-      <footer>
+      <footer className={classes.footer}>
         <Typography>
             All rights reserved. Next amazona
         </Typography>
